@@ -7,11 +7,22 @@
 </head>
 <body>
     <h1>Imagem dinamica</h1>
-    <p>Tente abrir esse site em varios dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador.</p>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
     <picture>
         <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
        <source media="(max-width: 1050px)" srcset="./imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexivel">
     </picture>
+    <h1>Reproduzir audio</h1>
+    <p>Vamos reproduzir audio em HTML5</p>
+    <audio src="midia/I Wonder Whose Kissing Her Now - Freedom Trail Studio.mp3" controls autoplay></audio>
+    <!--Tipos de formatos de audio, MP3,WAV,OGG-->
+    <audio>
+        <source src="midia/I Wonder Whose Kissing Her Now - Freedom Trail Studio.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midis/guanacast-33.wav" type="audio/wav">
+        <!--se caso o navegador nao funcionar nenhum desses tres audios, transmitir a mensagem abaixo-->
+        <p>Infelizmente seu navegador nao consegue reproduzir áudio. <a href="midia/I Wonder Whose Kissing Her Now - Freedom Trail Studio.mp3">Clique aqui para baixar o aquivo MP3</a></p> 
+    </audio>
 </body>
 </html>
