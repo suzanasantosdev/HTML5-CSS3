@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color:white;
+}
+
+main > section#info {
+    width: 380px;
+    margin: auto;
+    background-color: purple;
+    transition: 1.5s;
+    transition-timing-function: ease;
+}
+
+div.foto {
+    display: inline-block;
+    /*background-color: red;*/
+    transition: 1.5s;
+    transition-timing-function: ease;
+}
+
+h1#info {
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+div#redes {
+    /*background-color: rgb(255, 234, 234);*/
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.redes-sociais {
+    width: 60px;
+    border-radius: 50%;
+}
+
+main > section > h1 {
+    background-color: blue;
+    margin-top: 20px;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+main > section > p {
+    font-size: 1.2em;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+iframe#git {
+    src: url(../imagens/logo-github.jpg);
+}
+
+footer {
+    background-color: rgb(10, 10, 91);
+    margin-top: 150px;
+    text-align: center;
+}

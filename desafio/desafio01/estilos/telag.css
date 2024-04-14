@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    main {
+        margin-top: 20px;
+    }
+
+    #container {
+        /*background-color: red;*/
+        display: block;
+        width: 500px;
+        margin: auto;
+    }
+
+    div.foto {
+        text-align: center;
+       /* background-color: aliceblue; */
+    }
+
+    div#redes {
+        display: inline-block;
+        margin-right: 5px;
+        margin-top: -25px;
+        text-align: center;
+    }
+
+    main > section#info {
+        width: 768px;
+    }
+
+    footer {
+        margin-top: 300px;
+    }
+}
