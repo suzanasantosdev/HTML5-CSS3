@@ -53,11 +53,8 @@ main > section > h1 {
 main > section > p {
     font-size: 1.2em;
     text-indent: 20px;
+    text-align: justify;
     padding: 20px;
-}
-
-iframe#git {
-    src: url(../imagens/logo-github.jpg);
 }
 
 footer {
