@@ -1,5 +1,52 @@
 @charset "UTF-8";
 
-body{
-    background-color: #c5ebd6;
+@font-face {
+    font-family: 'font';
+    src: url(../fontes/idroid.otf) format(opentype);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background: green;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px; /* Parte inferior da esquerda */
+    border-bottom-right-radius: 10px; /* Parte inferior da direita */
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.406);
+    margin-bottom: 50px;  /* Usado para desgrudar a parte inferior do rodape */ 
+}
+
+nav {   
+    background: green;
+    text-align: center;
+    padding: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav > a:hover {
+    color: violet;
+    background-color: #DB2D2A;
+    padding: 11px;
+    padding-left: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition-duration: 0.5s;
 }
