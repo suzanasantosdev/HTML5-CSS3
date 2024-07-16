@@ -19,9 +19,15 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         thead,tfoot {
-            background-color: gray;
+            background-color: rgb(83, 79, 79);
             color: white;
         }
 
@@ -36,6 +42,7 @@
     ANATOMIA PARA TABELAS GRANDES
     TABLE
     CAPTION é a legenda da tabela
+    th e usado para titulo, ja o td e usado para colocar os dados na tabela
         THEAD
         TR,TD,TH
     TBODY
@@ -48,8 +55,8 @@
         <caption>Populaçao das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populaçao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populaçao</th>
             </tr>
         </thead>
         <tbody>
@@ -164,7 +171,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
