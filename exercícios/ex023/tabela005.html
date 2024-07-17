@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: chartreuse;
+        }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+            <col class="vermelho">    
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Suzana</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Renato</td>
+            <td>M</td>
+            <td>43</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Thiago</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Aprendiz</td>
+        </tr>
+        <tr>
+            <td>Mariane</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Bancária</td>
+        </tr>
+        <tr>
+            <td>Valdir</td>
+            <td>M</td>
+            <td>60</td>
+            <td>Pedreiro</td>
+        </tr>
+    </table>
+</body>
+</html>
